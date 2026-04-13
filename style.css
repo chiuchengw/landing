@@ -1,0 +1,95 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #ffffff;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("Paris\ companion.jpg") center/cover no-repeat;
+    color: rgb(239, 226, 226);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #a38002;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #b8912f;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.feature {
+    background: rgb(247, 247, 247);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* STEPS */
+.steps {
+    background: #d0bcbc;
+}
+
+.step {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 15px;
+    border-left: 4px solid #d4af37;
+    text-align: left;
+}
+
+/* CTA */
+.cta {
+    background: #835656;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #000;
+    color: white;
+}
