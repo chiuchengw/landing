@@ -10,7 +10,7 @@ body {
 .hero {
     height: 90vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url("Paris_companion.jpg") center/cover no-repeat;
+                url("001.jpg") center/cover no-repeat;
     color: rgb(239, 226, 226);
     display: flex;
     flex-direction: column;
